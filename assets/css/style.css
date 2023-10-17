@@ -533,7 +533,7 @@ header {
 }
 
 .dropdown-menu {
-    background-color: #0989d8 !important;
+    background-color: #277bb4 !important;
 }
 
 .dropdown-menu li a {
@@ -542,7 +542,7 @@ header {
 }
 
 .dropdown-item:hover {
-    background-color: #0989d8 !important;
+    background-color: #277bb4 !important;
 }
 
 .dropdown-menu .dropdown-submenu-left {

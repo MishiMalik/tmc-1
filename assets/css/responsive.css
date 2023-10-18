@@ -171,10 +171,15 @@
 #progress li{
   padding: 10px 30px 10px 20px;;
 }
-
+.filter-heading{
+  color: white;
+}
+.filter{
+  height: 100%;
+}
 .menu-links{
   /* display: none; */position: absolute;
-  top: 60px;
+  top: 75px;
   left: -350px;
   width: 330px;
   height: 100vh;

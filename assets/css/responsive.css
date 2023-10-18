@@ -20,6 +20,11 @@
   }
 }
 @media only screen and (max-width:991px){
+  .navbar-brand{
+    font-size: 20px;
+    font-weight: 600;
+    color: white !important;
+}
 
     .main-area{
         flex-direction: column;
@@ -176,13 +181,19 @@
 } */
 .filter{
   height: 100%;
+  margin: 10px auto;
+  /* width: 100%; */
+}
+.filter-div{
+  width: 100%;
 }
 .menu-links{
   /* display: none; */position: absolute;
-  top: 75px;
-  left: -350px;
-  width: 330px;
+  top: 60px;
+  left: -100%;
+  width: 100%;
   height: 100vh;
+  /* right: 0px; */
   z-index: 100;
   transition: all 1s;
   overflow-y: auto;

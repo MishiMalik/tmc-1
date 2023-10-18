@@ -442,6 +442,41 @@ border-bottom: 1px solid #d9e0e4;
     cursor: pointer;
     height: 100%;
 }
+.flip-card-content3{
+    position: absolute;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+    padding:15px 20px;
+    display: flex;flex-direction: column;
+    justify-content: center;
+    transition: all .5s;
+}
+.flip-card-content3 h1{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom:20px;
+}
+.show-text{
+    font-size: 14px;
+    height: 0px;
+    overflow: hidden;
+    transition: all .5s;
+
+}
+.flip-card-content3:hover .show-text{
+    display: block;
+    transition: all .5s;
+    height: 80px;
+}
+.flip-card3{
+    position: relative;
+    cursor: pointer;
+    height: 100%;
+}
 .flip-card img{
     /* min-height: 200px; */
     height: 100%;
@@ -494,9 +529,12 @@ border-bottom: 1px solid #d9e0e4;
     padding:15px 20px;
 }
 .flip-card-content h1{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     margin-bottom:20px;
+}
+.flip-card-content p{
+    font-size: 14px;
 }
 .flip-card:hover .flip-card-content{
     height: 95%;
@@ -563,7 +601,11 @@ header {
     object-fit: contain;
     height: 50px;
 }
-
+.navbar-brand{
+    font-size: 30px;
+    font-weight: 600;
+    color: white !important;
+}
 .navbar-brand .text {
     object-fit: contain;
     height: 40px;
@@ -915,3 +957,6 @@ main {
     height: 400px;
     width: 100%;
 }
+/* .mega-menu {
+    display: none;
+} */

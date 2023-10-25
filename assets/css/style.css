@@ -995,3 +995,9 @@ main {
   .mega-menu--active::-webkit-scrollbar-thumb {
     background-color: var(--orange);
   }
+  .main-btn{
+    background-color: var(--orange);
+    border: none;
+    padding: 11px 10px;
+    color: white;
+  }

@@ -505,6 +505,14 @@ font-weight:100; text-transform: uppercase;
     justify-content: center;
     transition: all .5s;
 }
+.flip-card-content::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+   
+    .flip-card-content::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+  }
 .flip-card-content3 h1{
     font-size: 14px;
     font-weight: 500;
@@ -577,6 +585,7 @@ font-weight:100; text-transform: uppercase;
     right: 0;
     overflow: hidden;
     padding:17px 10px;
+   
 }
 .flip-card-content h1{
     font-size: 14px;
@@ -589,6 +598,7 @@ font-weight:100; text-transform: uppercase;
 .flip-card:hover .flip-card-content{
     height: 95%;
     transition: all .5s;
+    overflow-y: auto;
 }
   /* What's On block. */
   #WhatsOnBlock {

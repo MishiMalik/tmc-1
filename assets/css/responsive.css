@@ -23,6 +23,9 @@
   .flip-card-content h1{
     font-size: 14px;
   }
+  .filter{
+    height: 980px;
+  }
 }
 @media only screen and (max-width:991px){
   .navbar-brand{
